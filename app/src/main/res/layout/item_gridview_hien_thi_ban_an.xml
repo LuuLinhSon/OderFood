@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding"
+    >
+
+    <TextView
+        android:id="@+id/tvbanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bàn 1"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+    <ImageView
+        android:id="@+id/imbanan"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/banansangtrong"
+        />
+    <LinearLayout
+        android:id="@+id/lnchon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/imgoimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thembanan"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/imthanhtoan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/thanhtoan"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/imanbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/anbutton"
+            android:layout_weight="1"
+            android:visibility="invisible"
+
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

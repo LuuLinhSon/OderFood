@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size40dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/padding"
+        >
+        <TextView
+            android:id="@+id/tvtenmonanthanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/tenmonan"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_size_5"
+            android:textColor="@color/colorDen"
+            android:background="@color/colorXanhLaCay"
+            />
+        <TextView
+            android:id="@+id/tvsoluongthanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/soluong"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/margin_size_5"
+            android:background="@color/colorXanhLaCay"
+            android:textColor="@color/colorDen"
+
+            />
+        <TextView
+            android:id="@+id/tvgiatienthanhtoan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/giatien"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@color/colorXanhLaCay"
+            android:textColor="@color/colorDen"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

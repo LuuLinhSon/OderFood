@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_size_5"
+    android:background="@color/colorXanhLaCay"
+    >
+
+    <TextView
+        android:id="@+id/tvhienthitennhanvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên nhân viên"
+        android:layout_marginTop="@dimen/margin_size_5"
+        android:textSize="@dimen/activity_vertical_margin"
+        android:textStyle="bold"
+        android:textColor="@color/colorDen"
+        />
+    <TextView
+        android:id="@+id/tvhienthigiotinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:layout_marginTop="@dimen/margin_size_5"
+        android:textColor="@color/colorDen"
+
+        />
+    <TextView
+        android:id="@+id/tvhienthicmnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CMND"
+        android:layout_marginTop="@dimen/margin_size_5"
+        android:textColor="@color/colorDen"
+
+        />
+
+</LinearLayout>

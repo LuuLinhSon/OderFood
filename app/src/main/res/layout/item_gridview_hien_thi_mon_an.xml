@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/immonan"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logorestaurant"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:layout_gravity="bottom"
+        android:background="@color/colorXanhTranparent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/tvtenmonan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorXanhLaCay"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="sss"
+            android:layout_marginLeft="@dimen/padding"
+            />
+        <TextView
+            android:id="@+id/tvgiamonan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorDo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="ssss"
+            android:layout_marginLeft="@dimen/padding"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

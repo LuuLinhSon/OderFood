@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imloaimonan"
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:src="@drawable/logorestaurant"
+        android:scaleType="centerCrop"
+        />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height"
+        android:layout_gravity="bottom"
+        android:background="@color/colorXanhTranparent"
+        >
+        <TextView
+            android:id="@+id/tvloaimonan"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/colorDen"
+            android:textSize="@dimen/font30sp"
+            android:textStyle="bold"
+            />
+
+    </FrameLayout>
+
+</FrameLayout>

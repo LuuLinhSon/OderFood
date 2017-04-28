@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_header"
+    android:background="@drawable/hack"
+    >
+
+    <ImageView
+        android:id="@+id/imdaubep"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/daubep"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        />
+    <TextView
+        android:id="@+id/tvtennhanvien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTrang"
+        android:textStyle="bold"
+        android:textSize="23sp"
+        android:layout_toRightOf="@+id/imdaubep"
+        android:layout_marginTop="135dp"
+        android:layout_marginLeft="15dp"
+        />
+
+</RelativeLayout>

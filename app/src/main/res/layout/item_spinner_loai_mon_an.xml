@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/editext_backgroud"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvtenloaimonan"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size40dp"
+        android:textColor="@color/colorDen"
+        android:padding="@dimen/padding"
+        android:text="aaaaaaa"
+        android:textSize="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        />
+
+
+
+
+</LinearLayout>
